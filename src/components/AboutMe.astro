@@ -1,0 +1,46 @@
+---
+const personalImageAlt = "Joel Palacio";
+---
+
+<article
+	class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
+	<div
+		class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+	>
+		<p>
+			Me llamo Joel Palacio. Soy ingeniero de sistemas de la universidad
+			Politécnico GranColombiano. Me enfoqué en la programación cuando cumplí 30
+			años. Emigré desde mi país natal Colombia a los 28 y actualmente <strong
+				>trabajo en un rol de telecomunicaciones como ingeniero NOC en un
+				Datacenter de la ciudad de Guadalajara, Jalisco, México</strong
+			>.
+		</p>
+
+		<p>
+			Durante mi aprendizaje autodidacta en desarrollo web he conocido
+			tecnologías como <strong
+				>Javascript, Tailwind, Typescript, React, PHP, Laravel, CSS.
+			</strong>Mi aprendizaje continúa, porque estoy seguro de que en este mundo
+			es necesario continuar educándose para ser mejores profesionales y más
+			competentes.
+		</p>
+
+		<p>
+			Otros de mis conocimientos incluyen <strong>
+				<em class="italic">Redes informáticas</em> e infraestructura de telecomunicaciones</strong
+			>. Esto me ha permitido comprender de manera más profunda el
+			funcionamiento de las cosas, más allá del código, y me ha dado una visión
+			más amplia de cómo se conectan las cosas en el mundo de la tecnología.
+		</p>
+	</div>
+
+	<img
+		width="200"
+		height="200"
+		src="/me.png"
+		alt={personalImageAlt}
+		class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20"
+		style="object-position: 50% 50%"
+	/>
+</article>

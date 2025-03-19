@@ -1,0 +1,29 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCE = [
+	{
+		date: "Mayo de 2021 - Actualmente...",
+		title: "Ingeniero de Operaciones NOC",
+		company: "Megacable Datacenter",
+		description:
+			"Trabajo en el área de operaciones de red, protocolos de comunicación MODBUS, SNMP, HTTP, monitoreo y soporte de infraestructura de red y servicios de telecomunicaciones. Implementación de mejoras en la infraestructura de red y servicios de telemetría.",
+	},
+	{
+		date: "Mayo de 2019 al Noviembre de 2020",
+		title: "Operador GPS",
+		company: "Sepromex SA de CV",
+		description:
+			"Logro de experiencia en protocolos de activación de operativos de emergencia, reportes aprendizaje en estatus de equipos y conocimiento técnico en funcionamiento de central operativa de monitoreo mediante equipos GPS.",
+	},
+];
+---
+
+<ol class="relative mt-16">
+	{
+		EXPERIENCE.map((experience) => (
+			<li class="">
+				<ExperienceItem {...experience} />
+			</li>
+		))
+	}
+</ol>
