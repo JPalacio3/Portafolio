@@ -1,6 +1,6 @@
 # 👨🏻‍💻 Portafolio para Programadores y Desarrolladores
 
-<div align="center"> <a href="https://portafolio-joel-palacio.netlify.app/"><h2>Visita mi portafolio 😎❤️</h2> </div>
+<div align="center"> <a href="https://portafolio-joel-palacio.netlify.app/"><h2>Visita mi portafolio 😎❤️</h2> </a></div>
 
 <div align="center">
   <a href="[(https://portafolio-joel-palacio.netlify.app/)]">
