@@ -18,7 +18,7 @@ const { description, title } = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -38,6 +38,14 @@ const { description, title } = Astro.props;
 		<style is:global>
 			:root {
 				color-scheme: light dark;
+			}
+
+			html,
+			body {
+				width: 100%;
+				overflow-x: hidden;
+				margin: 0;
+				padding: 0;
 			}
 
 			html {
@@ -76,7 +84,7 @@ const { description, title } = Astro.props;
 					backdrop-filter: blur(20px);
 					border-width: 1px;
 					border-color: rgb(2, 2, 44);
-					/* padding: 0.25rem 0.75rem; */
+					padding: 0.25rem 0.75rem;
 					display: flex;
 					flex-direction: row;
 					align-items: center;
