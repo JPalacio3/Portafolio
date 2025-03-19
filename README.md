@@ -3,7 +3,7 @@
 <div align="center"> <a https://portafolio-joel-palacio.netlify.app/"><h2>Visita mi portafolio 😎❤️</h2> </div>
 
 <div align="center">
-  <a href="[[https://porfolio.dev/](https://portafolio-joel-palacio.netlify.app/)](https://portafolio-joel-palacio.netlify.app/)">
+  <a href="[https://porfolio.dev/](https://portafolio-joel-palacio.netlify.app/)](https://portafolio-joel-palacio.netlify.app/)">
     <img src="/public/portfolio.webp" alt="Portafolio">
   </a>
 </div>
