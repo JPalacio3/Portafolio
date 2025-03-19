@@ -49,4 +49,4 @@ Este es un portafolio diseñado para mostrar los proyectos y la experiencia de d
 
 🙏 Agradecimientos Este proyecto fue inspirado y basado en el trabajo de midudev. ¡Gracias por compartir tu conocimiento y recursos con la comunidad!
 
-<div align="center"> <a href="https://github.com/midudev/porfolio.dev"> <img src="https://img.shields.io/github/stars/midudev/porfolio.dev?style=social" alt="GitHub Repo stars"> </a> </div> ```
+<div align="center"> <a href="https://github.com/midudev/porfolio.dev"> <img src="https://img.shields.io/github/stars/midudev/porfolio.dev?style=social" alt="GitHub Repo stars"> </a> </div>
