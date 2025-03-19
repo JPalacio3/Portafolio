@@ -1,9 +1,9 @@
 # 👨🏻‍💻 Portafolio para Programadores y Desarrolladores
 
-<div align="center"> <a https://portafolio-joel-palacio.netlify.app/"><p>Visita mi portafolio 😎❤️</p> </div>
+<div align="center"> <a https://portafolio-joel-palacio.netlify.app/"><h2>Visita mi portafolio 😎❤️</h2> </div>
 
 <div align="center">
-  <a href="https://porfolio.dev/">
+  <a href="[https://porfolio.dev/](https://portafolio-joel-palacio.netlify.app/)">
     <img src="/public/portfolio.webp" alt="Portafolio">
   </a>
 </div>
