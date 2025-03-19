@@ -53,8 +53,8 @@ Este es un portafolio diseñado para mostrar los proyectos y la experiencia de d
 
 <br>
 <br>
-<br>🫂 Contribuidores <a href="https://github.com/midudev/porfolio.dev/graphs/contributors"> <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" alt="Contribuidores"> </a><br><br> 📄 Este proyecto está bajo la licencia Creative Commons Attribution-NonCommercial 4.0 International.<br>
+<br>🫂 Contribuidores : <a href="https://github.com/midudev/porfolio.dev/graphs/contributors"> <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" alt="Contribuidores"> </a><br><br> 📄 Este proyecto está bajo la licencia Creative Commons Attribution-NonCommercial 4.0 International.<br>
 
-🙏 Agradecimientos Este proyecto fue inspirado y basado en el trabajo de midudev. ¡Gracias por compartir tu conocimiento y recursos con la comunidad! <br> <br>
+🙏 Agradecimientos : Este proyecto fue inspirado y basado en el trabajo de midudev. ¡Gracias por compartir tu conocimiento y recursos con la comunidad! <br> <br>
 
 <div align="center"> <a href="https://github.com/midudev/porfolio.dev"> <img src="https://img.shields.io/github/stars/midudev/porfolio.dev?style=social" alt="GitHub Repo stars"> </a> </div>
