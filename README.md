@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://portafolio-joel-palacio.netlify.app/" class="no-underline">
-    <h2>Visita mi portafolio 😎❤️</h2>
+    <h2>Haz Click en la siguiente imágen para visitar mi portafolio 😎❤️</h2>
   </a>
 </div>
 
