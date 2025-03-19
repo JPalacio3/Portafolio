@@ -45,7 +45,7 @@ Este es un portafolio diseñado para mostrar los proyectos y la experiencia de d
 └── [tsconfig.json](http://_vscodecontentref_/7)
 ```
 
-🫂 Contribuidores <a href="https://github.com/midudev/porfolio.dev/graphs/contributors"> <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" alt="Contribuidores"> </a> 📄 <br> Este proyecto está bajo la licencia Creative Commons Attribution-NonCommercial 4.0 International.
+🫂 Contribuidores <a href="https://github.com/midudev/porfolio.dev/graphs/contributors"> <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" alt="Contribuidores"> </a><br> 📄 Este proyecto está bajo la licencia Creative Commons Attribution-NonCommercial 4.0 International.
 
 🙏 Agradecimientos Este proyecto fue inspirado y basado en el trabajo de midudev. ¡Gracias por compartir tu conocimiento y recursos con la comunidad!
 
