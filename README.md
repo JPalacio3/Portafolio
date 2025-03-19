@@ -1,7 +1,5 @@
 # 👨🏻‍💻 Portafolio para Programadores y Desarrolladores
 
-<div align="center"> <a href="https://portafolio-joel-palacio.netlify.app/"><h2>Visita mi portafolio 😎❤️</h2> </a></div>
-
 <div align="center">
   <a href="https://portafolio-joel-palacio.netlify.app/">
     <h2>Visita mi portafolio 😎❤️</h2>
@@ -10,7 +8,6 @@
 
 <div align="center">
   <a href="https://portafolio-joel-palacio.netlify.app/">
-  <a href="[(https://portafolio-joel-palacio.netlify.app/)]">
     <img src="/public/portfolio.webp" alt="Portafolio">
   </a>
 </div>
@@ -54,8 +51,8 @@ Este es un portafolio diseñado para mostrar los proyectos y la experiencia de d
 └── [tsconfig.json](http://_vscodecontentref_/7)
 ```
 
-🫂 Contribuidores <a href="https://github.com/midudev/porfolio.dev/graphs/contributors"> <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" alt="Contribuidores"> </a><br> 📄 Este proyecto está bajo la licencia Creative Commons Attribution-NonCommercial 4.0 International.
+<br>🫂 Contribuidores <a href="https://github.com/midudev/porfolio.dev/graphs/contributors"> <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" alt="Contribuidores"> </a><br> 📄 Este proyecto está bajo la licencia Creative Commons Attribution-NonCommercial 4.0 International.<br>
 
-🙏 Agradecimientos Este proyecto fue inspirado y basado en el trabajo de midudev. ¡Gracias por compartir tu conocimiento y recursos con la comunidad!
+🙏 Agradecimientos Este proyecto fue inspirado y basado en el trabajo de midudev. ¡Gracias por compartir tu conocimiento y recursos con la comunidad! <br> <br>
 
 <div align="center"> <a href="https://github.com/midudev/porfolio.dev"> <img src="https://img.shields.io/github/stars/midudev/porfolio.dev?style=social" alt="GitHub Repo stars"> </a> </div>
