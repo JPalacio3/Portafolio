@@ -2,9 +2,9 @@
 
 ## <h2>😎❤️Haz Click en la siguiente imágen para visitar mi portafolio 😎❤️</h2>
 
-<div align="center" class="rounded-2xl">
+<div align="center" >
   <a href="https://portafolio-joel-palacio.netlify.app/">
-    <img src="/public/portfolio.webp" alt="Portafolio">
+    <img src="/public/portfolio.webp" alt="Portafolio" class="rounded-2xl">
   </a>
 </div>
 
