@@ -4,104 +4,107 @@ import Link from "./icons/Link.astro";
 import LinkButton from "./LinkButton.astro";
 
 const PROJECTS = [
-	{
-		title: "Multiservicios APC",
-		description:
-			"Página Web desarrollada para la empresa MULTISERVICIOS APC, ubicada en la ciudad de Neiva, Colombia. Su desarrollo fue realizado con HTML, CSS y Javascript. ",
-		link: "https://multiservicios-apc.netlify.app/",
-		image: "/projects/multiserviciosAPC.webp",
-	},
+  {
+    title: "Multiservicios APC",
+    description:
+      "Página Web desarrollada para la empresa MULTISERVICIOS APC, ubicada en la ciudad de Neiva, Colombia. Su desarrollo fue realizado con HTML, CSS y Javascript. ",
+    link: "https://multiservicios-apc.netlify.app/",
+    image: "/projects/multiserviciosAPC.webp",
+  },
 
-	{
-		title: "AppSalon - Aplicación para salón de belleza",
-		description:
-			"Proyecto de citas para salón de belleza, elaborado en PHP, Gulp, Sass, bajo el paradigma MVC",
-		link: "https://app-salon-joel.netlify.app/",
-		github: "https://github.com/JPalacio3/appsalonMVC",
-		image: "/projects/APP-Peluqueria.webp",
-	},
+  {
+    title: "AppSalon - Aplicación para salón de belleza",
+    description:
+      "Proyecto de citas para salón de belleza, elaborado en PHP, Gulp, Sass, bajo el paradigma MVC",
+    link: "https://app-salon-joel.netlify.app/",
+    github: "https://github.com/JPalacio3/appsalonMVC",
+    image: "/projects/APP-Peluqueria.webp",
+  },
 
-	{
-		title:
-			"Contador de Calorías - Aplicación para controlar consumo y gasto energético",
-		description:
-			"Proyecto de Contador de calorías, elaborado en React, Typescript, Tailwind CSS.",
-		link: "https://contadordecalorias.netlify.app/",
-		github: "https://github.com/JPalacio3/Contador-de-Calorias-React-Ts",
-		image: "/projects/APP-calorias.webp",
-	},
+  {
+    title:
+      "Contador de Calorías - Aplicación para controlar consumo y gasto energético",
+    description:
+      "Proyecto de Contador de calorías, elaborado en React, Typescript, Tailwind CSS.",
+    link: "https://contadordecalorias.netlify.app/",
+    github: "https://github.com/JPalacio3/Contador-de-Calorias-React-Ts",
+    image: "/projects/APP-calorias.webp",
+  },
 
-	{
-		title:
-			"Cotizador de Criptomonedas - Aplicación de cotización de criptomonedas en tiempo real",
-		description:
-			"Proyecto de cotizador de criptomendas elaborado en JS, usa el enfoque de promesas para resolver solicitudes de red provenientes de API proveida por cryptocompare.com.",
-		link: "https://cotizador-de-criptomonedas-js.netlify.app/",
-		github: "https://github.com/JPalacio3/Cotizador-de-Criptomonedas",
-		image: "/projects/cotizador-crypto.webp",
-	},
+  {
+    title:
+      "Cotizador de Criptomonedas - Aplicación de cotización de criptomonedas en tiempo real",
+    description:
+      "Proyecto de cotizador de criptomendas elaborado en JS, usa el enfoque de promesas para resolver solicitudes de red provenientes de API proveida por cryptocompare.com.",
+    link: "https://cotizador-de-criptomonedas-js.netlify.app/",
+    github: "https://github.com/JPalacio3/Cotizador-de-Criptomonedas",
+    image: "/projects/cotizador-crypto.webp",
+  },
 
-	{
-		title: "Si quieres aprender Javascript, te comparto este repositorio.",
-		description:
-			"En este repositorio encontrarás una extensa documentación que he creado sobre javascript, ¡Incluye un enlace a un Notion en el que puedes adquirir o repasar conceptos importantes sobre este lenguaje!",
+  {
+    title: "Si quieres aprender Javascript, te comparto este repositorio.",
+    description:
+      "En este repositorio encontrarás una extensa documentación que he creado sobre javascript, ¡Incluye un enlace a un Notion en el que puedes adquirir o repasar conceptos importantes sobre este lenguaje!",
 
-		github: "https://github.com/JPalacio3/Javascript_course",
-		image: "/projects/notion.webp",
-	},
+    github: "https://github.com/JPalacio3/Javascript_course",
+    image: "/projects/notion.webp",
+  },
 
-	{
-		title:
-			"Esta y muchas otras cosas más, las puedes encontrar en mi cuenta de GitHub",
-		description:
-			"Toma lo que necesites, úsalo, o mejor aún, contrátame para desarrollar muchas otras cosas que hagan más eficiente tus procesos profesionales o la publicidad en la web de tu empresa o negocio.",
+  {
+    title:
+      "Esta y muchas otras cosas más, las puedes encontrar en mi cuenta de GitHub",
+    description:
+      "Toma lo que necesites, úsalo, o mejor aún, contrátame para desarrollar muchas otras cosas que hagan más eficiente tus procesos profesionales o la publicidad en la web de tu empresa o negocio.",
 
-		github: "https://github.com/JPalacio3",
-		image: "/projects/github.webp",
-	},
+    github: "https://github.com/JPalacio3",
+    image: "/projects/github.webp",
+  },
 ];
 ---
 
 <div class="flex flex-col gap-y-16">
-	{
-		PROJECTS.map(({ image, title, description, link, github }) => (
-			<article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
-				<div class="w-full md:w-1/2">
-					<div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-						<img
-							alt={` ${title}`}
-							class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
-							loading="lazy"
-							src={image}
-						/>
-					</div>
-				</div>
+  {
+    PROJECTS.map(({ image, title, description, link, github }) => (
+      <article
+        class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0"
+        id="proyectos"
+      >
+        <div class="w-full md:w-1/2">
+          <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+            <img
+              alt={` ${title}`}
+              class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+              loading="lazy"
+              src={image}
+            />
+          </div>
+        </div>
 
-				<div class="w-full md:w-1/2 md:max-w-lg">
-					<h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
-						{title}
-					</h3>
-					<div class="flex flex-wrap mt-2">
-						<div class="mt-2 text-gray-700 dark:text-gray-400">
-							{description}
-						</div>
-						<footer class="flex items-end justify-start mt-4 gap-x-4">
-							{github && (
-								<LinkButton href={github}>
-									<GitHub class="size-6" />
-									Code
-								</LinkButton>
-							)}
-							{link && (
-								<LinkButton href={link}>
-									<Link class="size-4" />
-									Preview
-								</LinkButton>
-							)}
-						</footer>
-					</div>
-				</div>
-			</article>
-		))
-	}
+        <div class="w-full md:w-1/2 md:max-w-lg">
+          <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+            {title}
+          </h3>
+          <div class="flex flex-wrap mt-2">
+            <div class="mt-2 text-gray-700 dark:text-gray-400">
+              {description}
+            </div>
+            <footer class="flex items-end justify-start mt-4 gap-x-4">
+              {github && (
+                <LinkButton href={github}>
+                  <GitHub class="size-6" />
+                  Code
+                </LinkButton>
+              )}
+              {link && (
+                <LinkButton href={link}>
+                  <Link class="size-4" />
+                  Preview
+                </LinkButton>
+              )}
+            </footer>
+          </div>
+        </div>
+      </article>
+    ))
+  }
 </div>
