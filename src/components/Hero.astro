@@ -33,10 +33,11 @@ import Link from "./icons/Link.astro";
     class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
   >
     Desarrollador WEB. <strong>Sistemas Computacionales y Programador</strong>.
-    Especializado en el desarrollo de aplicaciones web.
+    Especializado en el desarrollo de sitios web personalizados y ajustados a
+    sus necesidades y requerimientos.
   </p>
 
-  <nav class="flex flex-wrap gap-4 mt-8 md:gap-6">
+  <nav class="flex flex-wrap flex-auto gap-4 mt-8 md:flex-row md:gap-6">
     <SocialPill href="mailto:joelpalacio630@gmail.com">
       <MailIcon class="size-4" />
       Contáctame
@@ -54,8 +55,8 @@ import Link from "./icons/Link.astro";
       GitHub
     </SocialPill>
 
-    <SocialPill href="/" target="" disabled>
-      <Link class="size-4" >
+    <SocialPill href="/" target="">
+      <Link class="size-4" />
       Descargar CV
     </SocialPill>
   </nav>
